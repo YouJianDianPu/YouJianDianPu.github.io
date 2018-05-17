@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="第一步: 下载安装git和node.js  第二布: 安装hexo   使用npm install hexo -g命令  第三步: 初始化hexo   使用hexo init命令  第四步: 配置_config.yml   找到Site处的title更改博客名字, author更改作者名字; 找到deploy处的type填入git, repo处填入你的github个人博客的仓库地址  第五步: 使">
+<meta name="description" content="第一步: 下载安装git和node.js">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何用hexo+github搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2018/05/17/如何用hexo-github搭建个人博客/index.html">
 <meta property="og:site_name" content="有间店铺的博客">
-<meta property="og:description" content="第一步: 下载安装git和node.js  第二布: 安装hexo   使用npm install hexo -g命令  第三步: 初始化hexo   使用hexo init命令  第四步: 配置_config.yml   找到Site处的title更改博客名字, author更改作者名字; 找到deploy处的type填入git, repo处填入你的github个人博客的仓库地址  第五步: 使">
+<meta property="og:description" content="第一步: 下载安装git和node.js">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-17T06:32:10.129Z">
+<meta property="og:updated_time" content="2018-05-17T07:54:28.994Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何用hexo+github搭建个人博客">
-<meta name="twitter:description" content="第一步: 下载安装git和node.js  第二布: 安装hexo   使用npm install hexo -g命令  第三步: 初始化hexo   使用hexo init命令  第四步: 配置_config.yml   找到Site处的title更改博客名字, author更改作者名字; 找到deploy处的type填入git, repo处填入你的github个人博客的仓库地址  第五步: 使">
+<meta name="twitter:description" content="第一步: 下载安装git和node.js">
 
 
 
@@ -99,7 +99,7 @@
     root: '/',
     scheme: 'Muse',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -190,6 +190,26 @@
         </li>
       
         
+        <li class="menu-item menu-item-关于">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-分类">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-文档">
           <a href="/archives/" rel="section">
             
@@ -272,6 +292,28 @@
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/hexo-github/" itemprop="url" rel="index">
+                    <span itemprop="name">hexo+github</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -300,7 +342,7 @@
 
       
         <h1 id="第一步"><a href="#第一步" class="headerlink" title="第一步:"></a>第一步:</h1><blockquote>
-<p>下载安装git和node.js</p>
+<p>下载安装git和node.js<br><a id="more"></a></p>
 </blockquote>
 <h1 id="第二布"><a href="#第二布" class="headerlink" title="第二布:"></a>第二布:</h1><blockquote>
 <p>安装hexo<br>   使用<code>npm install hexo -g</code>命令</p>
@@ -440,6 +482,15 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                
+              </div>
+            
 
             
 
@@ -528,6 +579,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
